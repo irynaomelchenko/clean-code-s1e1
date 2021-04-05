@@ -1,19 +1,24 @@
 /* Basic Style */
-
 .body {
   background-color: #f8f8f8;
+}
+#main {
   color: #333;
   font-family: Lato, sans-serif;
 }
 
 .heading-block {
   width: 500px;
-  margin: 0 auto;
+  margin: 0 auto 16px;
   display: block;
   text-align: right;
 }
 
 .heading-block-img {
+  margin: 0;
+}
+
+.heading-block-img .img {
   width: 100%;
 }
 
@@ -44,6 +49,7 @@
 
 .task-row-wrapper {
   display: flex;
+  margin-bottom: 14px;
 }
 
 .tasks-list {

@@ -7,55 +7,57 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body class="body">
-    <div class="heading-block">
-      <img class="heading-block-img" src="./eisenhower-matrix.jpg">
-      <a class="more-info-link"
-         href="https://goal-life.com/page/method/matrix-eisenhower">
-         Want more details?
-      </a>
-    </div>
-    <div class="main-block">
-      <p>
-        <label class="add-label" for="new-task">Add Item</label>
+    <main id="main">
+      <section class="heading-block">
+        <figure class="heading-block-img">
+          <img class="img" src="./eisenhower-matrix.jpg">
+        </figure>
+        <a class="more-info-link"
+           href="https://goal-life.com/page/method/matrix-eisenhower">
+           Want more details?
+        </a>
+      </section>
+      <section class="main-block">
+        <label class="add-label heading" for="new-task">Add Item</label>
         <div class="task-row-wrapper">
           <input id="new-task"class="task-input" type="text">
           <button class="btn">Add</button>
         </div>
-      </p>
-      <h3 class="heading">Todo</h3>
-      <ul id="incomplete-tasks" class="tasks-list">
-        <li class="task-item">
-          <input type="checkbox" class="checkbox-input">
-          <label class="task-label">Pay Bills</label>
-          <input type="text" class="task-input">
-          <button class="btn edit-btn">Edit</button>
-          <button class="btn delete-btn">
-            <img class="remove-img" src="./remove.svg">
-          </button>
-        </li>
-        <li class="task-item edit-mode">
-          <input type="checkbox" class="checkbox-input">
-          <label class="task-label">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task-input">
-          <button class="btn edit-btn">Save</button>
-          <button class="btn delete-btn">
-            <img class="remove-img" src="./remove.svg">
-          </button>
-        </li>
-      </ul>
-      <h3 class="heading">Completed</h3>
-      <ul id="completed-tasks" class="tasks-list">
-        <li class="task-item">
-          <input type="checkbox" class="checkbox-input" checked>
-          <label class="task-label">See the Doctor</label>
-          <input type="text" class="task-input">
-          <button class="btn edit-btn">Edit</button>
-          <button class="btn delete-btn">
-            <img class="remove-img" src="./remove.svg">
-          </button>
-        </li>
-      </ul>
-    </div>
+        <h3 class="heading">Todo</h3>
+        <ul id="incomplete-tasks" class="tasks-list">
+          <li class="task-item">
+            <input type="checkbox" class="checkbox-input">
+            <label class="task-label">Pay Bills</label>
+            <input type="text" class="task-input">
+            <button class="btn edit-btn">Edit</button>
+            <button class="btn delete-btn">
+              <img class="remove-img" src="./remove.svg">
+            </button>
+          </li>
+          <li class="task-item edit-mode">
+            <input type="checkbox" class="checkbox-input">
+            <label class="task-label">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="task-input">
+            <button class="btn edit-btn">Save</button>
+            <button class="btn delete-btn">
+              <img class="remove-img" src="./remove.svg">
+            </button>
+          </li>
+        </ul>
+        <h3 class="heading">Completed</h3>
+        <ul id="completed-tasks" class="tasks-list">
+          <li class="task-item">
+            <input type="checkbox" class="checkbox-input" checked>
+            <label class="task-label">See the Doctor</label>
+            <input type="text" class="task-input">
+            <button class="btn edit-btn">Edit</button>
+            <button class="btn delete-btn">
+              <img class="remove-img" src="./remove.svg">
+            </button>
+          </li>
+        </ul>
+      </section>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
