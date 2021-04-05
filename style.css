@@ -22,9 +22,11 @@
 }
 
 @media (max-width:768px) {
+
   .heading-block {
     text-align: center;
   }
+  
 }
 
 .main-block {
